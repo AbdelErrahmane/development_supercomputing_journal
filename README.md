@@ -50,24 +50,6 @@ The Scott-Knott (SK) test was used to select the best number of estimators for e
 - Plot SK Estimator NF-ToN-IoT-v2 Standardization
 - Plot SK Estimator NF-BoT-IoT-v2 Discretization
 - Plot SK Estimator NF-BoT-IoT-v2 Standardization
-| Dataset         | Transformation   | % Features | # Features | Best Combination         | MCC  | Kappa | F1   | Accuracy | Model Size (KB) | Prediction Time (μs) |
-|-----------------|-----------------|------------|------------|-------------------------|------|-------|------|----------|-----------------|----------------------|
-| NF-ToN-IoT-v2   | Discretization  | 20%        | 7          | Chi2+XGB_200            | 0.89 | 0.89  | 0.96 | 95%      | 719             | 3937.91              |
-|                 |                 | 50%        | 18         | Chi2+XGB_200            | 0.95 | 0.95  | 0.98 | 98%      | 734             | 4284.50              |
-|                 |                 | 80%        | 25         | mRMR+XGB_200            | 0.96 | 0.96  | 0.99 | 98%      | 721             | 5067.85              |
-|                 |                 | 100%       | 35         | XGB_200                 | 0.97 | 0.97  | 0.99 | 99%      | 726             | 5395.13              |
-|                 | Standardization | 20%        | 7          | K+MI+XGB_200            | 0.95 | 0.95  | 0.98 | 98%      | 831             | 4334.21              |
-|                 |                 | 50%        | 18         | A+mRMR+XGB_200          | 0.98 | 0.98  | 0.99 | 99%      | 796             | 4316.57              |
-|                 |                 | 80%        | 25         | K+mRMR+XGB_200          | 0.98 | 0.98  | 0.99 | 99%      | 798             | 4174.59              |
-|                 |                 | 100%       | 35         | XGB_200                 | 0.98 | 0.98  | 0.99 | 99%      | 800             | 5393.22              |
-| NF-BoT-IoT-v2   | Discretization  | 20%        | 7          | Chi2+XGB_200 & CATB_150 | 0.77 | 0.76  | 1.00 | 100%     | 400 & 163        | 3764.03 & 2472.31     |
-|                 |                 | 50%        | 18         | mRMR+XGB_200            | 0.89 | 0.89  | 1.00 | 100%     | 544             | 4226.32              |
-|                 |                 | 80%        | 25         | mRMR+XGB_150            | 0.97 | 0.97  | 1.00 | 100%     | 353             | 3894.97              |
-|                 |                 | 100%       | 35         | XGB_200                 | 0.97 | 0.97  | 1.00 | 100%     | 454             | 4570.41              |
-|                 | Standardization | 20%        | 7          | A+Chi2+XGB_200          | 0.97 | 0.97  | 1.00 | 100%     | 435             | 3735.73              |
-|                 |                 | 50%        | 18         | A+Chi2+XGB_200          | 0.99 | 0.99  | 1.00 | 100%     | 441             | 4385.69              |
-|                 |                 | 80%        | 25         | K+mRMR+XGB_200          | 0.99 | 0.99  | 1.00 | 100%     | 427             | 4714.78              |
-|                 |                 | 100%       | 35         | XGB_200                 | 0.99 | 0.99  | 1.00 | 100%     | 422             | 4832.86              |
 
 ## Repository Structure
 - `Standarization NF-ToN-IoT-v2.ipynb`: Jupyter notebook for feature engineering, selection, and model training on the NF-ToN-IoT-v2 dataset using standardization.
