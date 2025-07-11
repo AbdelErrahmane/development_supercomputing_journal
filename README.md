@@ -8,6 +8,10 @@ Contact: abderahmane.hamdouchi@um6p.ma ; ali.idri@um5.ac.ma
 
 ---
 
+## Computational Environment and HPC Infrastructure
+
+High-performance computing (HPC) relies on advanced supercomputers and compute clusters to solve complex problems and process large-scale datasets efficiently. In this research, the Toubkal Supercomputer was used for training and evaluating boosting models. Toubkal, hosted at Mohammed VI Polytechnic University (UM6P) in Ben Guerir, Morocco, was ranked among the top 100 supercomputers globally in 2020. As a key HPC resource, Toubkal supports researchers and contributes across Africa and internationally, advancing artificial intelligence and computational research in the region.
+
 ## Abstract
 This repository contains the code and notebooks for the research paper "New Design Strategies for IoT Intrusion Detection using Boosting and Feature Selection." The study addresses the security challenges in IoT environments by evaluating advanced ensemble learning methods, focusing on boosting algorithms and feature selection strategies. The experiments leverage two large NetFlow-based IoT datasets and utilize high-performance computing resources to ensure scalability and robustness.
 
