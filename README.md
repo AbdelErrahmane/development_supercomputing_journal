@@ -94,3 +94,7 @@ If you use this code or data in your research, please cite the original paper:
 ---
 
 For questions or contributions, please contact the authors at the emails above.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
