@@ -8,9 +8,21 @@ Contact: abderahmane.hamdouchi@um6p.ma ; ali.idri@um5.ac.ma
 
 ---
 
-## Computational Environment and HPC Infrastructure
+## Computational Environment, Parallel & Distributed Architecture
 
-High-performance computing (HPC) relies on advanced supercomputers and compute clusters to solve complex problems and process large-scale datasets efficiently. In this research, the Toubkal Supercomputer was used for training and evaluating boosting models. Toubkal, hosted at Mohammed VI Polytechnic University (UM6P) in Ben Guerir, Morocco, was ranked among the top 100 supercomputers globally in 2020. As a key HPC resource, Toubkal supports researchers and contributes across Africa and internationally, advancing artificial intelligence and computational research in the region.
+This project leverages both advanced Python libraries and high-performance computing hardware for scalable data processing and machine learning:
+
+- **Modin**: Enables distributed and parallel DataFrame operations as a drop-in replacement for pandas, using Ray or Dask as a backend.
+- **Joblib**: Provides easy parallelization of model training and evaluation, maximizing CPU/core utilization.
+- **Scikit-learn, XGBoost, CatBoost, LightGBM**: Support multi-core and distributed training for various machine learning models.
+- **Toubkal Supercomputer (UM6P, Morocco)**: All large-scale experiments were executed on the Toubkal HPC, which provides thousands of CPU cores and high-memory nodes, enabling efficient distributed computation for big data and machine learning workflows.
+
+The combination of these Python libraries and the Toubkal hardware architecture allows for:
+- Distributed data loading and preprocessing
+- Parallel feature selection and model training
+- Efficient scaling from a laptop to a supercomputing cluster
+
+For more details on the Toubkal Supercomputer, see: [UM6P HPC](https://www.um6p.ma/en/hpc)
 
 ## Abstract
 This repository contains the code and notebooks for the research paper "New Design Strategies for IoT Intrusion Detection using Boosting and Feature Selection." The study addresses the security challenges in IoT environments by evaluating advanced ensemble learning methods, focusing on boosting algorithms and feature selection strategies. The experiments leverage two large NetFlow-based IoT datasets and utilize high-performance computing resources to ensure scalability and robustness.
@@ -81,10 +93,16 @@ The main notebook, `Standarization NF-ToN-IoT-v2.ipynb`, is organized as follows
 2. Follow the cells sequentially to preprocess data, select features, train models, and export results.
 3. Modify parameters or feature selection thresholds as needed for further experimentation.
 
-## Requirements
-- Python 3.8+
-- pandas, numpy, scikit-learn, xgboost, lightgbm, catboost, matplotlib, joblib, mrmr, modin, ray, dask
-- Jupyter Notebook or VS Code
+
+## Requirements & Installation
+
+This project requires Python 3.8+ and Jupyter Notebook or VS Code.
+
+To install all required Python libraries, run:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Citation
 If you use this code or data in your research, please cite the original paper:

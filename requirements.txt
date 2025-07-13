@@ -1,0 +1,25 @@
+# Core distributed and parallel processing
+modin[ray]
+joblib
+
+# Data science and machine learning
+scikit-learn
+xgboost
+catboost
+lightgbm
+mrmr-selection
+pandas-profiling
+matplotlib
+numpy
+scipy
+
+# Data handling and utilities
+pandas
+ipython
+
+# For IP address handling
+ipaddress
+
+# Optional: for warnings and OS operations
+warnings
+os
