@@ -114,6 +114,15 @@ If you use this code or data in your research, please cite the original paper:
 
 For questions or contributions, please contact the authors at the emails above.
 
+
+
+## Deployment Repository
+
+Deployment is performed using Docker technology and is designed for edge devices such as Raspberry Pi.
+For deployment scripts, Dockerfiles, and production-ready code related to this project, see the companion repository:
+
+[deployment_supercomputing_journal (GitHub)](https://github.com/AbdelErrahmane/deployment_supercomputing_journal)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
