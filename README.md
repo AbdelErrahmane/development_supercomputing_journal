@@ -104,10 +104,11 @@ To install all required Python libraries, run:
 pip install -r requirements.txt
 ```
 
+
 ## Citation
 If you use this code or data in your research, please cite the original paper:
 
-> HAMDOUCHI, A., & IDRI, A. (2025). New Design Strategies for IoT Intrusion Detection using Boosting and Feature Selection.
+> HAMDOUCHI, A., & IDRI, A. (2025). New Design Strategies for IoT Intrusion Detection using Boosting and Feature Selection. Submitted to [The Journal of Supercomputing (Springer)](https://link.springer.com/journal/11227).
 
 ---
 
